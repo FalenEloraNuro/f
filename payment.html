@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style1.css">
+
+</head>
+<body>
+
+<div class="container">
+
+    <form id="contactForm" action="proses-email.php" method="post">
+
+        <div class="row">
+
+            <div class="col">
+
+                <h3 class="title">billing address</h3>
+
+                <div class="inputBox">
+                    <span>full name :</span>
+                    <input type="text" placeholder="Kania Cahyaning" name="name">
+                </div>
+                <div class="inputBox">
+                    <span>email :</span>
+                    <input type="email" placeholder="example@example.com" name="email">
+                </div>
+                <div class="inputBox">
+                    <span>No Paket :</span>
+                    <input type="number" placeholder="1" name="package">
+                </div>
+               
+                <div class="flex">
+                   
+                   
+                </div>
+
+            </div>
+
+            <div class="col">
+
+                <h3 class="title">payment</h3>
+
+                <div class="inputBox">
+                    <span>qr :</span>
+                    <img src="images/qr.png" alt="">
+                </div>            
+                <div class="flex">                
+                </div>
+            </div>
+        </div>
+        
+        <input type="submit" value="Selesai" class="submit-btn">
+    </form>
+   
+
+</div>    
+    
+</body>
+</html>
